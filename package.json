@@ -22,7 +22,7 @@
     "gulp-util": "3.0.6"
   },
   "dependencies": {
-    "jimp": "^0.2.24",
+    "jimp": "^0.6.1",
     "q": "^1.4.1",
     "split-text-middle": "^1.0.0"
   }
