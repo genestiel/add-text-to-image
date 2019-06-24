@@ -39,7 +39,7 @@ module.exports = ({path, text, color, quality, fontSize, blackFont, whiteFont, i
         chain = image.print(font,x,y,{
           text: text,
           alignmentX: Jimp.HORIZONTAL_ALIGN_CENTER,
-          alignmentY: Jimp.VERTICAL_ALIGN_MIDDLE
+          alignmentY: Jimp.VERTICAL_ALIGN_BOTTOM
         },maxWidth,maxHeight).quality(quality)
       
       ninvoke(chain, 'getBuffer', Jimp.MIME_JPEG)
